@@ -1,41 +1,203 @@
+/* Set consistent box model for all elements */
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 1ß0;
 }
 
+/* Body styling */
 body {
-  font-family: Arial;
-  margin: 0;
+  background-color: #5c5d5b;
 }
 
-.products {
-  display: flex;
-  flex-direction: row;
-  /* Centers along the main axis determined by flex-direction */
-  justify-content: center;
-  /* Centers along the opposite axis */
-  align-items: center;
-  width: 100%;
-  /* Uses the height of the viewport */
-  height: 90vh;
-  margin: 0 auto;
-  border-style: solid;
-  border-width: 2px;
-}
-
-.card {
-  padding: 10px;
-  width: 250px;
-  text-align: center;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.card header {
+/* Header styling */
+.header {
   padding: 20px;
-  background: #13293d;
-  color: #fff;
+  font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #161515;
+  color: #ffffff;
 }
 
-.card img {
-  width: 100%;
+/* Main title in the header styling */
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+/* Styling for the "seo" part of the main title in the header */
+.header h1 .seo {
+  color: #d9dcd6;
+}
+
+/* Styling for the right side of the header */
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+/* Styling for the navigation list in the right side of the header */
+.header div ul {
+  list-style-type: none;
+}
+
+/* Styling for list items in the navigation list */
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* Styling for links */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 20px;
+}
+
+/* Styling for the  ABOUT ME section */
+.hero {
+  height: 700px;
+  width: 70%;
+  margin-bottom: 30px;
+  background-image: url(" ../images/YO.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Styling for left-floated images */
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+/* Styling for right-floated images */
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* Styling for the main content */
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Styling for the benefits section */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2589bd;
+}
+
+/* Styling for individual benefits */
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* Styling for the titles of benefits */
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Styling for images of benefits */
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* Styling for the SEO section */
+.search-engine-optimization {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* Styling for the ORM section */
+.online-reputation-management {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* Styling for the Social Media Marketing section */
+.social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* Styling for images in the SEO section */
+.search-engine-optimization img {
+  max-height: 200px;
+}
+
+/* Styling for images in the ORM section */
+.online-reputation-management img {
+  max-height: 200px;
+}
+
+/* Styling for images in the Social Media Marketing section */
+.social-media-marketing img {
+  max-height: 200px;
+}
+
+/* Styling for titles in the SEO section */
+.search-engine-optimization h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Styling for titles in the ORM section */
+.online-reputation-management h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Styling for titles in the Social Media Marketing section */
+.social-media-marketing h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Styling for the footer */
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+/* Styling for the title in the footer */
+.footer h2 {
+  font-size: 30px;
 }
