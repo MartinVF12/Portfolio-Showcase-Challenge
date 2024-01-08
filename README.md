@@ -17,3 +17,7 @@ Crafting a portfolio in HTML gives you the freedom to customize the appearance a
 An online portfolio is accessible from anywhere in the world, making it easy to distribute to employers, colleagues, or potential clients. Sharing your work and achievements becomes seamless, allowing for a broader reach and impact in the professional sphere.
 
 In the present work, the aim is to create a professional portfolio to showcase my skills and talents to individuals actively seeking new talent. This is to provide a tangible demonstration of my abilities through work that has already been realized in practice.
+
+The source code used was from the EfficientCodeRefactor project in my current repository, used as a guide to gradually implement the requirements requested in the new challenge.
+
+## https://github.com/MartinVF12/Portfolio-Showcase-Challenge 
